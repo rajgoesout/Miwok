@@ -1,7 +1,5 @@
 package com.example.android.miwok;
 
-import android.content.Context;
-
 public class Word {
     private String mDefaultTranslation;
 

@@ -23,7 +23,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     private static final String LOG_TAG = WordAdapter.class.getSimpleName();
 
-    public WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
+    WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
         super(context, 0, words);
         mColorResourceId = colorResourceId;
     }
